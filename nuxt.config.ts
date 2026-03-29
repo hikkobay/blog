@@ -12,7 +12,6 @@ export default defineNuxtConfig({
     'nuxt-gtag',
     '@nuxt/image',
     '@vueuse/nuxt',
-    '@nuxtjs/storybook',
     '@nuxt/image',
     '@nuxtjs/seo',
     '@nuxtjs/color-mode',

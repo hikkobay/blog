@@ -51,7 +51,6 @@
     "@nuxtjs/i18n": "^9.3.1",
     "@nuxtjs/seo": "^3.1.0",
     "@nuxtjs/sitemap": "^7.4.3",
-    "@nuxtjs/storybook": "^8.4.1",
     "@playwright/test": "^1.56.1",
     "@storybook/addon-a11y": "10.3.3",
     "@storybook/addon-docs": "10.3.3",
