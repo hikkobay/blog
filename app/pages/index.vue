@@ -4,6 +4,7 @@ const title = route.query.tag ? `${route.query.tag}` : (route.path === '/en' ? '
 
 useHead({
   title: `${title}の記事一覧`,
+  titleTemplate: null,
 })
 
 defineOgImage('NuxtSeo', {
@@ -65,7 +66,7 @@ const activeDates = computed(() => {
   return createdAtAndUpdatedAt
 })
 
-const tags = ref<string[]>([])
+const tags = ref<(string | undefined)[]>([])
 
 const { data } = await useAsyncData('tags', () => {
   return queryCollection('content')

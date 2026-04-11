@@ -24,6 +24,7 @@ const { data } = await useAsyncData('pager', () => {
 
 useHead({
   title: doc.value?.title,
+  titleTemplate: null,
   meta: [
     { name: 'description', content: doc.value?.description },
     { property: 'og:title', content: doc.value?.title },

@@ -1,6 +1,7 @@
 <script setup lang="ts">
 useHead({
   title: 'タグ一覧',
+  titleTemplate: null,
 })
 
 defineOgImage('NuxtSeo', {

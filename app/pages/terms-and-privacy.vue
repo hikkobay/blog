@@ -3,6 +3,7 @@ const { locale } = useI18n()
 
 useHead({
   title: locale.value === 'ja' ? '利用規約とプライバシーポリシー' : 'Terms and Privacy',
+  titleTemplate: null,
 })
 
 defineOgImage('NuxtSeo', {

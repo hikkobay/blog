@@ -1,6 +1,7 @@
 <script setup lang="ts">
 useHead({
   title: 'Hikaru Kobayashi',
+  titleTemplate: null,
 })
 
 defineOgImage('NuxtSeo', {
