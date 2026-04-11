@@ -13,7 +13,6 @@ const messages: { ja: Record<string, string>, en: Record<string, string> } = {
 export default {
   title: 'components/link-to-back',
   component: LinkToBack,
-  tags: ['autodocs'],
   render: (args: undefined, { globals }: { globals: GlobalTypes }) => ({
     components: { LinkToBack },
     setup() {

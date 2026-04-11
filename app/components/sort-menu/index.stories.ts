@@ -13,7 +13,6 @@ const messages: { ja: Record<string, string>, en: Record<string, string> } = {
 export default {
   title: 'components/sort-menu',
   component: SortMenu,
-  tags: ['autodocs'],
   render: (args: { desc: boolean }, { globals }: { globals: GlobalTypes }) => ({
     components: { SortMenu },
     setup() {

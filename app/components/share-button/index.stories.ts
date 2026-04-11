@@ -3,7 +3,6 @@ import ShareButton from '@/components/share-button/index.vue'
 export default {
   title: 'components/share-button',
   component: ShareButton,
-  tags: ['autodocs'],
 }
 
 const props = {

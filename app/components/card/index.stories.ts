@@ -3,7 +3,6 @@ import Card from '@/components/card/index.vue'
 export default {
   title: 'components/card',
   component: Card,
-  tags: ['autodocs'],
 }
 
 export const Default = {

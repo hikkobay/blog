@@ -13,7 +13,6 @@ const messages: { ja: Record<string, string>, en: Record<string, string> } = {
 export default {
   title: 'components/link-to-edit',
   component: LinkToEdit,
-  tags: ['autodocs'],
   render: (args: { fileName: string }, { globals }: { globals: GlobalTypes }) => ({
     components: { LinkToEdit },
     setup() {

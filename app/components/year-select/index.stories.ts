@@ -3,7 +3,6 @@ import YearSelect from '@/components/year-select/index.vue'
 export default {
   title: 'components/year-select',
   component: YearSelect,
-  tags: ['autodocs'],
   render: () => ({
     components: { YearSelect },
     setup() {

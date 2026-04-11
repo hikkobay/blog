@@ -3,7 +3,6 @@ import Tooltip from '@/components/tooltip/index.vue'
 export default {
   title: 'components/tooltip',
   component: Tooltip,
-  tags: ['autodocs'],
   decorators: [
     () => ({
       template: '<div style="position: relative;"><story /></div>',

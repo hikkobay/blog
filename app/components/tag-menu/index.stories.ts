@@ -15,7 +15,6 @@ const messages: { ja: Record<string, string>, en: Record<string, string> } = {
 export default {
   title: 'components/tag-menu',
   component: TagMenu,
-  tags: ['autodocs'],
   render: (args: { tags: string[] }, { globals }: { globals: GlobalTypes }) => ({
     components: { TagMenu },
     setup() {

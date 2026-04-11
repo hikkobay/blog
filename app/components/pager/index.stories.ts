@@ -3,7 +3,6 @@ import Pager from '@/components/pager/index.vue'
 export default {
   title: 'components/pager',
   component: Pager,
-  tags: ['autodocs'],
 }
 
 const nextPage = {

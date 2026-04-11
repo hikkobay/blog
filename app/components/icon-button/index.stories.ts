@@ -12,7 +12,6 @@ type Args = {
 export default {
   title: 'components/icon-button',
   component: IconButton,
-  tags: ['autodocs'],
   render: (args: Args) => ({
     components: { IconButton },
     setup() {

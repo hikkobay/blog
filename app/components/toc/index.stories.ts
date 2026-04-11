@@ -14,7 +14,6 @@ const messages: { ja: Record<string, string>, en: Record<string, string> } = {
 export default {
   title: 'components/toc',
   component: Toc,
-  tags: ['autodocs'],
   render: (args: TocProps, { globals }: { globals: GlobalTypes }) => ({
     components: { Toc },
     setup() {

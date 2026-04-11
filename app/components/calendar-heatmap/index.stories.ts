@@ -14,7 +14,6 @@ const messages: { ja: Record<string, string>, en: Record<string, string> } = {
 export default {
   title: 'components/calendar-heatmap',
   component: CalendarHeatmap,
-  tags: ['autodocs'],
   render: (args: CalendarHeatmapProps, { globals }: { globals: GlobalTypes }) => ({
     components: { CalendarHeatmap },
     setup() {
