@@ -74,7 +74,6 @@
     "jsdom": "^26.0.0",
     "lint-staged": "^15.4.1",
     "nuxt": "^4.4.2",
-    "nuxt-gtag": "^3.0.1",
     "storybook": "10.3.3",
     "textlint": "^14.4.0",
     "textlint-filter-rule-comments": "^1.2.2",

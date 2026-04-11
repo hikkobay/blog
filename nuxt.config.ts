@@ -9,7 +9,6 @@ export default defineNuxtConfig({
     '@nuxt/test-utils/module',
     '@nuxt/eslint',
     'nuxt-og-image',
-    'nuxt-gtag',
     '@nuxt/image',
     '@vueuse/nuxt',
     '@nuxt/image',
@@ -66,10 +65,6 @@ export default defineNuxtConfig({
     config: {
       stylistic: true,
     },
-  },
-
-  gtag: {
-    id: process.env.GOOGLE_ANALYTICS_ID,
   },
 
   i18n: {
