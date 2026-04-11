@@ -142,7 +142,7 @@ onUnmounted(() => {
         </IconButton>
         <IconButton
           element="anchor-link"
-          href="https://github.com/splendente/blog"
+          href="https://github.com/hikkobay/blog"
           target="_blank"
           label="GitHubを新しいタブで表示する"
         >

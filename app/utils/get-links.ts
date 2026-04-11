@@ -32,7 +32,7 @@ export const getExternalLinks = (): Link[] => {
     },
     {
       name: 'GitHub',
-      href: 'https://github.com/splendente/blog',
+      href: 'https://github.com/hikkobay/blog',
     },
     {
       name: 'Zenn',
@@ -53,7 +53,7 @@ export const getSns = (): Link[] => {
   return [
     {
       name: 'GitHub',
-      href: 'https://twitter.com/hikkobay',
+      href: 'https://github.com/hikkobay',
     },
     {
       name: 'X',

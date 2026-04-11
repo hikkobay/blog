@@ -14,7 +14,7 @@ const sns = getSns()
 <template>
   <main>
     <NuxtImg
-      src="/images/splendente.png"
+      src="/images/hikkobay.png"
       width="160"
       height="160"
       class="avatar"

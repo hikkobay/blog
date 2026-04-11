@@ -30,7 +30,7 @@ useHead({
     { property: 'og:description', content: doc.value?.description },
     { property: 'og:type', content: 'article' },
     { property: 'og:url', content: `https://www.hikaru-kobayashi.me${route.path}` },
-    { property: 'og:image', content: 'https://www.hikaru-kobayashi.me/images/splendente.png' },
+    { property: 'og:image', content: 'https://www.hikaru-kobayashi.me/images/hikkobay.png' },
     { name: 'twitter:card', content: 'summary_large_image' },
   ],
   link: [

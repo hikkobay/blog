@@ -11,7 +11,7 @@ describe('LinkToEditコンポーネント', () => {
     vi.stubGlobal('$t', (key: string) => mockTranslations[key] || key)
   })
 
-  const baseUrl = 'https://github.com/splendente/blog/tree/main/'
+  const baseUrl = 'https://github.com/hikkobay/blog/tree/main/'
   const props = {
     fileName: 'content/vitest',
   }

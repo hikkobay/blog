@@ -3,6 +3,6 @@ resource "vercel_project" "with_git" {
   framework = "nuxtjs"
   git_repository = {
     type = "github"
-    repo = "splendente/blog"
+    repo = "hikkobay/blog"
   }
 }
