@@ -3,7 +3,7 @@ useHead({
   title: 'Hikaru Kobayashi',
 })
 
-defineOgImageComponent('NuxtSeo', {
+defineOgImage('NuxtSeo', {
   title: 'Hikaru Kobayashi',
 })
 

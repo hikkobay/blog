@@ -6,7 +6,7 @@ useHead({
   title: `${title}の記事一覧`,
 })
 
-defineOgImageComponent('NuxtSeo', {
+defineOgImage('NuxtSeo', {
   title: `${title}の記事一覧`,
 })
 

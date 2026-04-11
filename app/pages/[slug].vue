@@ -38,7 +38,7 @@ useHead({
   ],
 })
 
-defineOgImageComponent('NuxtSeo', {
+defineOgImage('NuxtSeo', {
   title: doc.value?.title,
 })
 </script>

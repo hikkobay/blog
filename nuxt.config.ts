@@ -82,12 +82,6 @@ export default defineNuxtConfig({
     lazy: true,
   },
 
-  ogImage: {
-    fonts: [
-      'Noto+Sans+JP:700',
-    ],
-  },
-
   sitemap: {
     exclude: ['/404'],
   },

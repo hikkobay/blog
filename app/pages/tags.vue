@@ -3,7 +3,7 @@ useHead({
   title: 'タグ一覧',
 })
 
-defineOgImageComponent('NuxtSeo', {
+defineOgImage('NuxtSeo', {
   title: 'タグ一覧',
 })
 
