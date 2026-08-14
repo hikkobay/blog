@@ -80,6 +80,7 @@
     "textlint-rule-ja-unnatural-alphabet": "^2.0.1",
     "textlint-rule-no-dropping-the-ra": "^3.0.0",
     "textlint-rule-no-hankaku-kana": "^2.0.1",
+    "unhead": "2.1.15",
     "unplugin-auto-import": "^19.1.0",
     "unplugin-vue-components": "^28.4.0",
     "vite": "^6.4.2",
