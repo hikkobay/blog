@@ -25,6 +25,7 @@ logs
 
 # Storybook
 *storybook.log
+storybook-static
 /test-results/
 /playwright-report/
 /blob-report/
@@ -69,4 +70,5 @@ override.tf.json
 terraform.rc
 
 # Ignore coverage reports
+coverage
 app/coverage
