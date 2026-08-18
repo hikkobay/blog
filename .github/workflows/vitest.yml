@@ -15,8 +15,6 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
-    env:
-      WORKING_DIRECTORY: app
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,4 +32,7 @@ jobs:
       - name: Show coverage report
         uses: davelosert/vitest-coverage-report-action@v2
         with:
-          working-directory: ${{ env.WORKING_DIRECTORY }}
+          working-directory: .
+          vite-config-path: vitest.config.ts
+          json-summary-path: coverage/coverage-summary.json
+          json-final-path: coverage/coverage-final.json
